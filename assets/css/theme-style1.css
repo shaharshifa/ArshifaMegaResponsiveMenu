@@ -1,0 +1,38 @@
+
+/* Reset CSS Start */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	background: #fff;
+	font-family: 'Arial', sans-serif;
+	color: #393939;
+}
+
+.demo_wrapper {
+	padding: 0px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+	width: 1000px;
+}
+.demo_wrapper h2 {
+	font-size: 30px;
+	color:  #646464;
+	padding: 40px 0 30px 0;
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+
+/* Reset CSS End */
+
+/* For responsive Container or Wrapper */	
+@media screen and (max-width: 990px) {
+	.demo_wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
