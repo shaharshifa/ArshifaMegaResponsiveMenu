@@ -7,8 +7,8 @@ Mobile first jQuery plugin that lets you create a beautiful multiple menus, with
 ### Download Version
 [v1.0](#)
 
-### Development
-
+Development
+----
 
 ##### 1. Include Arshifa Mega Responsive Menu plugin files with jQuery library
 
@@ -67,7 +67,8 @@ $(document).ready(function ($) {
 });
 ```
 
-### Customizing
+Customizing
+----
 
 | Options | Default | Type | Description |
 | ------------- |:-------------:| -----:| -----:|
@@ -83,7 +84,8 @@ $(document).ready(function ($) {
 | subMenuClass | 'submenu' | string | Desktop Direction Arrows, You can change 'submenu' class - Note: please change class names in CSS file |
 | multiLevelClass | 'multimenu' | string | Desktop Direction Arrows, You can change 'multimenu' class - Note: please change class names in CSS file
 
-### Browsers Support
+Browsers Support
+----
 
 All Modern Browsers
 
@@ -94,6 +96,7 @@ License
 ----
 
 The MIT License (MIT) 
+
 
 Copyright
 ----
