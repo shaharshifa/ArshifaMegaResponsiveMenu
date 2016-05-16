@@ -14,13 +14,16 @@ body {
 .demo_wrapper {
 	padding: 0px;
 	margin: 0 auto;
-	padding: 40px 0 0 0;
-	width: 100%;
+	padding: 0;
 }
 .demo_wrapper h2 {
 	font-size: 30px;
 	color:  #646464;
 	padding: 40px 0 30px 0;
+	text-align: center;
+}
+h1 {
+	margin: 50px 0;
 	text-align: center;
 }
 ul {
