@@ -7,7 +7,7 @@ Mobile first jQuery plugin that lets you create a beautiful and multipurpose men
 ##### Download Version
 [v1.0](#)
 
-Development
+Documentation
 ----
 
 ##### 1. Include Arshifa Mega Responsive Menu plugin files with jQuery library
