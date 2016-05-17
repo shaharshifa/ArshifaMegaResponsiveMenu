@@ -14,18 +14,18 @@ Development
 
 ```sh
 <!-- Add arshifa menu stylesheet -->
-<link rel="stylesheet" href="css/megaResponsiveMenu.css" />
+<link rel="stylesheet" href="css/megaResponsiveMenu.min.css" />
 
-<!-- jQuery 1.11.3+ -->
+<!-- jQuery library -->
 <script src="js/jquery-1.11.3.min.js"></script>
 
 <!-- Include arshifa menu js plugin -->
-<script src="js/megaResponsiveMenu.js"></script>
+<script src="js/megaResponsiveMenu.min.js"></script>
 ```
 
 ##### 2. Follow HTML code structure
 ```sh
-<div class="arshmenu" id="demo1">
+<div id="demo1">
   <ul>
     <li><a href="#">...</a></li>
     <li><a href="#">...</a>
