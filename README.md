@@ -5,27 +5,27 @@ Arshifa Mega Responsive Menu
 Mobile first jQuery plugin that lets you create a beautiful and multipurpose menus on the web with Responsive & Touch Friendly.
 
 ##### Download Version
-[v1.0](#)
+[v1.0](http://arshifa.com/?wpdmact=process&did=MTAuaG90bGluaw==)
 
-Development
+Documentation
 ----
 
 ##### 1. Include Arshifa Mega Responsive Menu plugin files with jQuery library
 
 ```sh
 <!-- Add arshifa menu stylesheet -->
-<link rel="stylesheet" href="css/megaResponsiveMenu.css" />
+<link rel="stylesheet" href="css/megaResponsiveMenu.min.css" />
 
-<!-- jQuery 1.11.3+ -->
+<!-- jQuery library -->
 <script src="js/jquery-1.11.3.min.js"></script>
 
 <!-- Include arshifa menu js plugin -->
-<script src="js/megaResponsiveMenu.js"></script>
+<script src="js/megaResponsiveMenu.min.js"></script>
 ```
 
 ##### 2. Follow HTML code structure
 ```sh
-<div class="arshmenu" id="demo1">
+<div id="demo1">
   <ul>
     <li><a href="#">...</a></li>
     <li><a href="#">...</a>

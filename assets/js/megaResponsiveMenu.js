@@ -1,5 +1,5 @@
 /*
- *  CSS Arshifa Mega Responsive Menu v1.0
+ *  jQuery Plugin Arshifa Mega Responsive Menu v1.0
  *
  *  Copyright (c) 2016
  *
@@ -73,12 +73,14 @@
 		responsiveClass = 'responsive-menus',
 		listItem = Dir + blnk + LiList,
 		SubmenuList = 'megasubmenu',
+		menuClass = 'arshmenu',
 		thisId = $(this).selector,
 		mediaWidth = settings.windowWidth + 1,
 		right_dir = settings.right_direction_menu,
 		fullWidth = settings.full_width_menu;
 		
 		
+		$this.parent().addClass(menuClass); // Add Parent Class		
 		$this.find(Dir + blnk + LiList + HasUl).addClass(settings.subMenuClass); // Add Submenu Class
 		$this.find(Dir + blnk + LiList + blnk + Ulist + blnk + LiList + HasUl).addClass(settings.multiLevelClass); // Add Inner Menus Class
 		$this.find(LiList + HasUl).append('<span class="' + settings.arrowClass + '" />'); // Append Mobile Click/Touch Arrows
